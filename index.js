@@ -17,15 +17,25 @@ app.get("/", (req, res) => {
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <script src="https://api.kluster-ai.online/api/me/embed/${id}/kluster.js" defer></script>
-            
+            <style>
+                body {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                    margin: 0;
+                }
+                h1 {
+                    text-align: center;
+                    font-size: 1.5rem;
+                    font-family: 'Arial';
+                }
+            </style>
         </head>
         <body>
-        <h1 style="text-align: center; font-size: 1.5rem; font-family: 'Arial'">
-            <center>
+            <h1>
                 Your Website goes here...
-            </center>
-        </h1>
-            
+            </h1>
         </body>
         </html>
     `;
