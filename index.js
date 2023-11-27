@@ -25,15 +25,10 @@ app.get("/", (req, res) => {
                     height: 100vh;
                     margin: 0;
                 }
-                h1 {
-                    text-align: center;
-                    font-size: 1.5rem;
-                    font-family: 'Arial';
-                }
             </style>
         </head>
         <body>
-            <h1>
+            <h1 style="text-align: center; font-size: 1.5rem; font-family: 'Arial'">
                 Your Website goes here...
             </h1>
         </body>
