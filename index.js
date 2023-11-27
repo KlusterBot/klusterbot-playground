@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
             <title>Kluster Playground</title>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <script src="https://api.kluster-ai.online/api/me/embed/${id}/kluster.js" defer></script>
+            <script src="https://api.kluster-ai.online/api/me/embed/${id}/kluster.js"></script>
             <style>
                 body {
                     display: flex;
