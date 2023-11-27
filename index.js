@@ -20,7 +20,11 @@ app.get("/", (req, res) => {
             
         </head>
         <body>
-        <h1>Your Website goes here</h1>
+        <h1 style="text-align: center; font-size: 1.5rem; font-family: 'Arial'">
+            <center>
+                Your Website goes here...
+            </center>
+        </h1>
             
         </body>
         </html>
